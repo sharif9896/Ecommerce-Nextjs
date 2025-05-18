@@ -5,6 +5,7 @@ import {
   syncUserDeletion,
   syncUserUpdatation,
 } from "@/config/innjest.js";
+
 // create an API serves zero function
 export const { GET, POST } = serve({
   client: inngest,
